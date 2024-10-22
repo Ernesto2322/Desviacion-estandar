@@ -33,5 +33,10 @@ class TestCalcularDesviacionEstandar(unittest.TestCase):
         # Varianza = (100 + 25 + 0 + 25 + 100) / 5 = 50
         self.assertAlmostEqual(resultado, math.sqrt(50))  # sqrt(50) ≈ 7.071
 
+    def test_elementos_no_numericos(self):
+        """Debe lanzar TypeError si hay elementos no numéricos."""
+        with self.assertRaises(TypeError):
+            calcular_desviacion_estandar([10, "abc", 20, None])  # Contiene un string y un None
+
 if __name__ == '__main__':
     unittest.main()
