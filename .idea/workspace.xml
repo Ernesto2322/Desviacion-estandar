@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca57e820-e36a-427f-9ad8-5f1d3bf64b5b" name="Changes" comment="Caso 1: Sin elementos (Rojo)" />
+    <list default="true" id="ca57e820-e36a-427f-9ad8-5f1d3bf64b5b" name="Changes" comment="Caso 4: Con n elementos positivos" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -144,12 +144,39 @@
       <option name="project" value="LOCAL" />
       <updated>1729624889055</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Caso 2: Con un elemento">
+      <option name="closed" value="true" />
+      <created>1729625016808</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1729625016808</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Caso 3: Con más de un elemento">
+      <option name="closed" value="true" />
+      <created>1729625108614</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1729625108614</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Caso 4: Con n elementos positivos">
+      <option name="closed" value="true" />
+      <created>1729625195512</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1729625195512</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Caso 1: Sin elementos (Rojo)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Caso 1: Sin elementos (Rojo)" />
+    <MESSAGE value="Caso 2: Con un elemento" />
+    <MESSAGE value="Caso 3: Con más de un elemento" />
+    <MESSAGE value="Caso 4: Con n elementos positivos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Caso 4: Con n elementos positivos" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

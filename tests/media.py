@@ -18,7 +18,11 @@ class TestCalcularMedia(unittest.TestCase):
 
     def test_n_elementos_positivos(self):
         """Debe devolver el promedio de n elementos positivos."""
-        self.assertEqual(calcular_media([2, 4, 6, 8, 10]), 6)  # (2 + 4 + 6 + 8 + 10) / 5 = 6
+        self.assertEqual(calcular_media([2, 4, 6, 8, 10]), 6)  # (2 + 4 + 6 + 8 + 10) / 5 = 6>
+
+    def test_n_elementos_ceros(self):
+        """Debe devolver 0 para una lista con n ceros."""
+        self.assertEqual(calcular_media([0, 0, 0, 0, 0]), 0)  # La media de ceros es 0
 
 if __name__ == '__main__':
     unittest.main()
