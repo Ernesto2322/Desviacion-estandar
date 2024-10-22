@@ -27,5 +27,11 @@ class TestCalcularDesviacionEstandar(unittest.TestCase):
         """Debe devolver 0.0 para una lista con n ceros."""
         self.assertEqual(calcular_desviacion_estandar([0, 0, 0, 0, 0]), 0.0)
 
+    def test_n_elementos_positivos_y_negativos(self):
+        """Debe devolver la desviación estándar para n elementos positivos y negativos."""
+        resultado = calcular_desviacion_estandar([-10, -5, 0, 5, 10])  # Media = 0
+        # Varianza = (100 + 25 + 0 + 25 + 100) / 5 = 50
+        self.assertAlmostEqual(resultado, math.sqrt(50))  # sqrt(50) ≈ 7.071
+
 if __name__ == '__main__':
     unittest.main()
