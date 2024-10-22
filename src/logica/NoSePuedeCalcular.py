@@ -8,4 +8,7 @@ def calcular_media(elementos):
     if not elementos:  # Verifica si la lista está vacía
         raise NoSePuedeCalcular("No se puede calcular la media de una lista vacía.")
 
+    if len(elementos) == 1:  # Caso con un solo elemento
+        return elementos[0]
+
     return sum(elementos) / len(elementos)
