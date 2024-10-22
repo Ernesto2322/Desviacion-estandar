@@ -12,5 +12,10 @@ class TestCalcularDesviacionEstandar(unittest.TestCase):
         """Debe devolver 0.0 para una lista con un solo elemento."""
         self.assertEqual(calcular_desviacion_estandar([5]), 0.0)  # La desviación de [5] es 0.0
 
+    def test_dos_elementos(self):
+        """Debe devolver la desviación estándar para dos elementos."""
+        resultado = calcular_desviacion_estandar([4, 10])  # Media = 7, Varianza = 9
+        self.assertAlmostEqual(resultado, 3.0)  # sqrt(9) = 3.0
+
 if __name__ == '__main__':
     unittest.main()
