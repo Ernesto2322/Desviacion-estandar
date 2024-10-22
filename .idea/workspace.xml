@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca57e820-e36a-427f-9ad8-5f1d3bf64b5b" name="Changes" comment="Caso 4: Con n elementos positivos" />
+    <list default="true" id="ca57e820-e36a-427f-9ad8-5f1d3bf64b5b" name="Changes" comment="Creando el esqueleto de las clases Desviacón y TestDesviación" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -168,7 +168,39 @@
       <option name="project" value="LOCAL" />
       <updated>1729625195512</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Caso 5: Con n elementos donde todos son ceros">
+      <option name="closed" value="true" />
+      <created>1729625262298</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1729625262298</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Caso 6: Con n elementos positivos y negativos">
+      <option name="closed" value="true" />
+      <created>1729625324667</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1729625324667</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Caso 7: Con n elementos no númericos">
+      <option name="closed" value="true" />
+      <created>1729625439897</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1729625439897</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Creando el esqueleto de las clases Desviacón y TestDesviación">
+      <option name="closed" value="true" />
+      <created>1729625829886</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1729625829886</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -176,7 +208,11 @@
     <MESSAGE value="Caso 2: Con un elemento" />
     <MESSAGE value="Caso 3: Con más de un elemento" />
     <MESSAGE value="Caso 4: Con n elementos positivos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Caso 4: Con n elementos positivos" />
+    <MESSAGE value="Caso 5: Con n elementos donde todos son ceros" />
+    <MESSAGE value="Caso 6: Con n elementos positivos y negativos" />
+    <MESSAGE value="Caso 7: Con n elementos no númericos" />
+    <MESSAGE value="Creando el esqueleto de las clases Desviacón y TestDesviación" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creando el esqueleto de las clases Desviacón y TestDesviación" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
