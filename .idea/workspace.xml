@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca57e820-e36a-427f-9ad8-5f1d3bf64b5b" name="Changes" comment="Creando el esqueleto de las clases Desviacón y TestDesviación" />
+    <list default="true" id="ca57e820-e36a-427f-9ad8-5f1d3bf64b5b" name="Changes" comment="Caso 2: Con dos elementos" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,6 +47,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python tests.Python tests in desviacion.py.executor": "Run",
     "Python tests.Python tests in media.py.executor": "Run",
     "Python.NoSePuedeCalcular.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -216,19 +217,45 @@
       <option name="project" value="LOCAL" />
       <updated>1729625829886</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Caso 1: Sin elementos">
+      <option name="closed" value="true" />
+      <created>1729625899686</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1729625899686</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Caso 2: Con un elemento">
+      <option name="closed" value="true" />
+      <created>1729626068536</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1729626068536</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Caso 2: Con dos elementos">
+      <option name="closed" value="true" />
+      <created>1729626148329</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1729626148329</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Caso 1: Sin elementos (Rojo)" />
-    <MESSAGE value="Caso 2: Con un elemento" />
     <MESSAGE value="Caso 3: Con más de un elemento" />
     <MESSAGE value="Caso 4: Con n elementos positivos" />
     <MESSAGE value="Caso 5: Con n elementos donde todos son ceros" />
     <MESSAGE value="Caso 6: Con n elementos positivos y negativos" />
     <MESSAGE value="Caso 7: Con n elementos no númericos" />
     <MESSAGE value="Creando el esqueleto de las clases Desviacón y TestDesviación" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creando el esqueleto de las clases Desviacón y TestDesviación" />
+    <MESSAGE value="Caso 1: Sin elementos" />
+    <MESSAGE value="Caso 2: Con un elemento" />
+    <MESSAGE value="Caso 2: Con dos elementos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Caso 2: Con dos elementos" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
