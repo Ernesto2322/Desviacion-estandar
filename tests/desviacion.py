@@ -23,5 +23,9 @@ class TestCalcularDesviacionEstandar(unittest.TestCase):
         # Varianza = (16 + 4 + 0 + 4 + 16) / 5 = 8.0
         self.assertAlmostEqual(resultado, math.sqrt(8.0))  # sqrt(8) = 2.8284
 
+    def test_n_elementos_ceros(self):
+        """Debe devolver 0.0 para una lista con n ceros."""
+        self.assertEqual(calcular_desviacion_estandar([0, 0, 0, 0, 0]), 0.0)
+
 if __name__ == '__main__':
     unittest.main()
