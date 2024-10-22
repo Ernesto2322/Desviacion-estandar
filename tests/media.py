@@ -16,5 +16,9 @@ class TestCalcularMedia(unittest.TestCase):
         """Debe devolver el promedio de dos elementos."""
         self.assertEqual(calcular_media([4, 6]), 5)  # (4 + 6) / 2 = 5
 
+    def test_n_elementos_positivos(self):
+        """Debe devolver el promedio de n elementos positivos."""
+        self.assertEqual(calcular_media([2, 4, 6, 8, 10]), 6)  # (2 + 4 + 6 + 8 + 10) / 5 = 6
+
 if __name__ == '__main__':
     unittest.main()
