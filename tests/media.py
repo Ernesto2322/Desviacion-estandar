@@ -29,5 +29,10 @@ class TestCalcularMedia(unittest.TestCase):
         self.assertEqual(calcular_media([10, -10, 20, -20, 30, -30]),
                          0)  # (10 + (-10) + 20 + (-20) + 30 + (-30)) / 6 = 0
 
+    def test_elementos_no_numericos(self):
+        """Debe lanzar TypeError si hay elementos no numéricos."""
+        with self.assertRaises(TypeError):
+            calcular_media([10, "abc", 20, None])  # Contiene un string y un None
+
 if __name__ == '__main__':
     unittest.main()
